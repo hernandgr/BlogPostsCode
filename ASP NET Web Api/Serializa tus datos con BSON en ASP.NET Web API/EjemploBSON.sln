@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploBSON.Api", "EjemploBSON.Api\EjemploBSON.Api.csproj", "{8666704E-FE96-4F65-BF13-BC34344009BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploBSON.Cliente", "EjemploBSON.Cliente\EjemploBSON.Cliente.csproj", "{123647A1-424F-4587-99E8-20935171171B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A808C620-06B5-4B62-B5D3-9584EC817B92}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8666704E-FE96-4F65-BF13-BC34344009BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8666704E-FE96-4F65-BF13-BC34344009BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8666704E-FE96-4F65-BF13-BC34344009BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8666704E-FE96-4F65-BF13-BC34344009BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{123647A1-424F-4587-99E8-20935171171B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{123647A1-424F-4587-99E8-20935171171B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{123647A1-424F-4587-99E8-20935171171B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{123647A1-424F-4587-99E8-20935171171B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
