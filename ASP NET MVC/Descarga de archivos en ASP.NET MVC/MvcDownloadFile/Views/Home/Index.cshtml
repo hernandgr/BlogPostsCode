@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@Html.ActionLink("Descargar usando ActionLink", "Download", "Home")
+<br/>
+<br />
+
+<a id="download" href="#" onclick="downloadFile();return false;">Descargar usando javascript</a>
+
+<script>
+    function downloadFile()
+    {
+        window.location = "@Url.Action("Download", "Home")";
+    }
+</script>
